@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ptam)
 
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+set(CMAKE_BUILD_TYPE Release)
+
 add_custom_target(
   DEPS ALL
   COMMAND echo Building all dependencies
